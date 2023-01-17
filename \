@@ -1,0 +1,19 @@
+import Link from 'next/link'
+
+export default function Nav() {
+  return (
+    <nav>
+      <ul>
+        <li>
+          <link href="/">Home</link>
+        </li>
+        <li>
+          <Link href="/about">About </Link>
+        </li>
+        <li>
+          <Link href="/blog">Blog</Link>
+        </li>
+      </ul>
+    </nav>
+  )
+}
