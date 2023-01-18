@@ -8,7 +8,7 @@ const { siteTitle, siteDesc, siteUrl, siteLocale, siteType, siteIcon } = siteMet
 
 export default function Meta({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }) {
     //ページのタイトル
-    const title = pageTitle ? `${pageTitle} |${siteTitle}` : siteTitle
+    const title = pageTitle ? `${pageTitle}` : siteTitle
 
     //ページの説明
     const desc = pageDesc ?? siteDesc
